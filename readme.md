@@ -16,12 +16,12 @@ const ghostVersion = require('ghost-version');
 
 ghostVersion('nikolaskama.me').then(ghost_version => {
 	console.log(ghost_version);
-	//=> 1.19
+	//=> '1.19'
 });
 
 ghostVersion('google.com').then(ghost_version => {
 	console.log(ghost_version);
-	//=> undefined
+	//=> 'Target doesn\'t seem to be using Ghost'
 });
 ```
 
