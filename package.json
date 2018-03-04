@@ -1,0 +1,40 @@
+{
+  "name": "ghost-version",
+  "version": "1.0.0",
+  "description": "Retrieve which version of the Ghost publishing platform a site is using.",
+  "license": "MIT",
+  "repository": "k4m4/ghost-version",
+  "author": {
+    "name": "Nikolaos Kamarinakis",
+    "url": "nikolaskama.me",
+    "email": "nikolaskam@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "ghost",
+    "version",
+    "detect"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "*"
+  },
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "ghost-detect": "^1.0.3",
+    "p-any": "^1.1.0",
+    "p-timeout": "^2.0.1",
+    "pify": "^3.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
