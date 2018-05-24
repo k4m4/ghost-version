@@ -2,7 +2,7 @@ import test from 'ava';
 import m from './';
 
 test('ghost hostname', async t => {
-	t.is(await m('https://nikolaskama.me'), '1.19');
+	t.is(await m('https://nikolaskama.me'), '1.22');
 });
 
 test('non-ghost hostname', async t => {
@@ -14,7 +14,7 @@ test('unreachable hostname', async t => {
 });
 
 test('with timeout', async t => {
-	t.is(await m('https://nikolaskama.me', {timeout: 3000}), '1.19');
+	t.is(await m('https://nikolaskama.me', {timeout: 3000}), '1.22');
 });
 
 test('with impossible timeout', async t => {
