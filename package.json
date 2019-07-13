@@ -1,6 +1,6 @@
 {
   "name": "ghost-version",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Retrieve which version of the Ghost publishing platform a site is using.",
   "license": "MIT",
   "repository": "k4m4/ghost-version",
