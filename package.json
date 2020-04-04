@@ -33,12 +33,12 @@
   },
   "dependencies": {
     "arrify": "^1.0.1",
-    "cheerio": "^1.0.0-rc.2",
-    "ghost-detect": "^1.0.10",
+    "cheerio": "^1.0.0-rc.3",
+    "ghost-detect": "^1.0.14",
     "p-any": "^1.1.0",
     "p-timeout": "^2.0.1",
     "pify": "^3.0.0",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   }
 }
